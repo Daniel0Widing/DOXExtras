@@ -1,5 +1,5 @@
 # DOX Extras
-Adds extra features and dinos to the DinoOverhaul X (DOX) mod. All craftable items are crafted in the [DOX Extras Workbench](https://github.com/Daniel0Widing/DOXExtras#andrewsarchus). All recipes are automatically available in the DOX Extras Workbench to prevent engram spam.
+Adds extra features and dinos to the DinoOverhaul X (DOX) mod. All craftable items are crafted in the [DOX Extras Workbench](https://github.com/Daniel0Widing/DOXExtras#dox-extras-workbench). All recipes are automatically available in the DOX Extras Workbench to prevent engram spam.
 
 ## Installing the Mod
 Log into Steam, go to [DOX Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=2926301142), and subscribe to the mod. While you're at it, you should also subscribe to [DinoOverhaul X](https://steamcommunity.com/sharedfiles/filedetails/?id=710880648) since it doesn't make sense to use this mod without it. Then launch ARK and the mods should automatically download. When you create your world/server, place this mod directly after DOX in the mod load order for best results.
@@ -27,10 +27,9 @@ _If the color names look strange, that's because they are the color code names u
 ### Andrewsarchus
 <details><summary>------- Info ---------</summary>
 	
-The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its regular attacks are lack luster compared to other upgraded dinosaurs, so its best place is either far away firing with its minigun, or upclose soaking up hits. All saddles for upgraded **Andrewsarchuses use Advanced Element Bullets**.
+The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its regular attacks are lack luster compared to other upgraded dinosaurs, so its best place is either far away firing with its minigun, or upclose soaking up hits. All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://github.com/Daniel0Widing/DOXExtras#advanced-element-bullets).
 
-<details><summary>Prime:</summary>
-
+**Prime:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 800 |
@@ -41,20 +40,10 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Range | 25000 |
 | Minigun Fire Interval | 0.1 |
 | Saddle Armor | 150 |
+
 \+ Minigun Partial Armor Piercing
-
-_Spawner:_
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_Prime.PrimalItem_DinoSpawner_Andrewsarchus_Prime'" 1 0 false
-```
-_Saddle:_
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeSaddle.PrimalItemArmor_AndrewsarchusPrimeSaddle'" 1 0 false
-```
-</details>
 	
-<details><summary>Prime Unique:</summary>
-
+**Prime Unique:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1000 |
@@ -65,20 +54,10 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Saddle/
 | Minigun Range | 27500 |
 | Minigun Fire Interval | 0.08 |
 | Saddle Armor | 200 |
+
 \+ Minigun Slow Effect
-	
-_Spawner:_
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique.PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique'" 1 0 false
-```
-_Saddle:_
-```	
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle.PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle'" 1 0 false
-```
-</details>
-	
-<details><summary>Prime Ancient:</summary>
-	
+
+**Prime Ancient:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1200 |
@@ -90,22 +69,14 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/S
 | Minigun Range | 30000 |
 | Minigun Fire Interval | 0.075 |
 | Saddle Armor | 250 |
+
 \+ Minigun Full Piercing
+
 \+ Minigun Torpor
+
 \+ Minigun AoE	
-
-_Spawner:_
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient.PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient'" 1 0 false
-```
-_Saddle:_
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeAncientSaddle.PrimalItemArmor_AndrewsarchusPrimeAncientSaddle'" 1 0 false
-```
-</details>
 	
-<details><summary>Primal:</summary>
-
+**Primal:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1500 |
@@ -117,19 +88,54 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/
 | Minigun Range | 35000 |
 | Minigun Fire Interval | 0.05 |
 | Saddle Armor | 350 |
+
 \+ Minigun Stacking & Slowing Bleed
 
-_Spawner:_
+<details><summary>---- Spawn Codes: ------</summary>
+
+**Prime:**
+```
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Andrewsarchus_Prime_Character_BP.Andrewsarchus_Prime_Character_BP'" 10 0 0 1269
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_Prime.PrimalItem_DinoSpawner_Andrewsarchus_Prime'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeSaddle.PrimalItemArmor_AndrewsarchusPrimeSaddle'" 1 0 false
+```
+**Prime Unique:**
+```
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Andrewsarchus_PrimeUnique_Character_BP.Andrewsarchus_PrimeUnique_Character_BP'" 10 0 0 1269
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique.PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique'" 1 0 false
+```
+```	
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle.PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle'" 1 0 false
+```
+**Prime Ancient:**
+```
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Andrewsarchus_PrimeAncient_Character_BP.Andrewsarchus_PrimeAncient_Character_BP'" 10 0 0 1269
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient.PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeAncientSaddle.PrimalItemArmor_AndrewsarchusPrimeAncientSaddle'" 1 0 false
+```
+**Primal:**
+```
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Andrewsarchus_Primal_Character_BP.Andrewsarchus_Primal_Character_BP'" 10 0 0 1269
+```
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_Primal.PrimalItem_DinoSpawner_Andrewsarchus_Primal'" 1 0 false
 ```
-_Saddle:_
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimalSaddle.PrimalItemArmor_AndrewsarchusPrimalSaddle'" 1 0 false
 ```
 </details>
 </details>
-	
+
 ## Added Items:
 ### Structures:
 #### DOX Extras Workbench
@@ -142,7 +148,7 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/Pri
 </details>
 
 ### Ammo:
-#### Advanced Element Ammo
+#### Advanced Element Bullets
 <details><summary>------- Info ---------</summary>
 	
 An advanced bullet that uses element instead of gunpowder. 
