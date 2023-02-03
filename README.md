@@ -1,5 +1,5 @@
 # DOX Extras
-Adds extra features and dinos to the DinoOverhaul X (DOX) mod. All craftable items are crafted in the [DOX Extras Workbench](https://github.com/Daniel0Widing/DOXExtras/edit/main/README.md#andrewsarchus). All recipes are automatically available in the DOX Extras Workbench to prevent engram spam.
+Adds extra features and dinos to the DinoOverhaul X (DOX) mod. All craftable items are crafted in the [DOX Extras Workbench](https://github.com/Daniel0Widing/DOXExtras/main/README.md#andrewsarchus). All recipes are automatically available in the DOX Extras Workbench to prevent engram spam.
 
 ## Installing the Mod
 Log into Steam, go to [DOX Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=2926301142), and subscribe to the mod. While you're at it, you should also subscribe to [DinoOverhaul X](https://steamcommunity.com/sharedfiles/filedetails/?id=710880648) since it doesn't make sense to use this mod without it. Then launch ARK and the mods should automatically download. When you create your world/server, place this mod directly after DOX in the mod load order for best results.
