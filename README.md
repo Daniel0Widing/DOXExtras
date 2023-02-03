@@ -10,15 +10,15 @@ But then there's also Alpha Apex, Apex Prime Unique, X, Y, and probably some I'm
 
 So for DOX Extras, the dinosaur tiers are streamlined and consistant, while still trying to stay as close to DOX as possible. The tiers, in order, are:
 
-**Prime -> Prime Unique -> Prime Ancient -> Primal**
+**Prime -> Unique -> Ancient -> Primal**
 
 Each tier has its own saddle and dinosaur spawner item, along with a corresponding color scheme which is applied to all matching dinosaurs, saddles, and spawners of each tier. The colors are:
 
 | Tier | Color |
 | --- | --- |
 | Prime | Lime |
-| Prime Unique | Yellow |
-| Prime Ancient | Magenta & Yellow |
+| Unique | Yellow |
+| Ancient | Magenta & Yellow |
 | Primal | DarkLavender & Glacial |
 
 _If the color names look strange, that's because they are the color code names used in ARK's code_
@@ -43,7 +43,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 
 \+ Minigun Partial Armor Piercing
 	
-**Prime Unique:**
+**Unique:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1000 |
@@ -57,7 +57,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 
 \+ Minigun Slow Effect
 
-**Prime Ancient:**
+**Ancient:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1200 |
@@ -103,25 +103,25 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Spawner
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Prime/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeSaddle.PrimalItemArmor_AndrewsarchusPrimeSaddle'" 1 0 false
 ```
-**Prime Unique:**
+**Unique:**
 ```
-cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Andrewsarchus_PrimeUnique_Character_BP.Andrewsarchus_PrimeUnique_Character_BP'" 10 0 0 1269
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/Unique/Andrewsarchus/Andrewsarchus_Unique_Character_BP.Andrewsarchus_Unique_Character_BP'" 10 0 0 1269
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique.PrimalItem_DinoSpawner_Andrewsarchus_PrimeUnique'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Unique/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_Unique.PrimalItem_DinoSpawner_Andrewsarchus_Unique'" 1 0 false
 ```
 ```	
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeUnique/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle.PrimalItemArmor_AndrewsarchusPrimeUniqueSaddle'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Unique/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusUniqueSaddle.PrimalItemArmor_AndrewsarchusUniqueSaddle'" 1 0 false
 ```
-**Prime Ancient:**
+**Ancient:**
 ```
-cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Andrewsarchus_PrimeAncient_Character_BP.Andrewsarchus_PrimeAncient_Character_BP'" 10 0 0 1269
-```
-```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient.PrimalItem_DinoSpawner_Andrewsarchus_PrimeAncient'" 1 0 false
+cheat spawndino "Blueprint'/Game/Mods/DOXExtras/Dinos/Ancient/Andrewsarchus/Andrewsarchus_Ancient_Character_BP.Andrewsarchus_Ancient_Character_BP'" 10 0 0 1269
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/PrimeAncient/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimeAncientSaddle.PrimalItemArmor_AndrewsarchusPrimeAncientSaddle'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Ancient/Andrewsarchus/Spawner/PrimalItem_DinoSpawner_Andrewsarchus_Ancient.PrimalItem_DinoSpawner_Andrewsarchus_Ancient'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Ancient/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusAncientSaddle.PrimalItemArmor_AndrewsarchusAncientSaddle'" 1 0 false
 ```
 **Primal:**
 ```
