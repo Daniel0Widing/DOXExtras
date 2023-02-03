@@ -47,7 +47,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 **Unique:**
 | Stat | Data |
 | --- | --- |
-| Base Health | 1000 |
+| Base Health | 1200 |
 | Base Torpor | 1600 |
 | Scale | 1.15 |
 | Extra Tamed Speed Multiplier | 2.25 |
@@ -62,7 +62,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 **Ancient:**
 | Stat | Data |
 | --- | --- |
-| Base Health | 1200 |
+| Base Health | 1600 |
 | Base Torpor | 2400 |
 | Scale | 1.2 |
 | Extra Tamed Speed Multiplier | 2.5 |
@@ -82,7 +82,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 **Primal:**
 | Stat | Data |
 | --- | --- |
-| Base Health | 1500 |
+| Base Health | 2000 |
 | Base Torpor | 3200 |
 | Scale | 1.25 |
 | Extra Tamed Speed Multiplier | 3.0 |
