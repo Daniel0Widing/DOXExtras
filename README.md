@@ -24,7 +24,9 @@ Each tier has its own saddle and dinosaur spawner item, along with a correspondi
 _If the color names look strange, that's because they are the color code names used in ARK's code_
 
 ## Added Dinos:
-### Andrewsarchus: 
+### Andrewsarchus
+<details><summary>------- Info ---------</summary>
+	
 The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its regular attacks are lack luster compared to other upgraded dinosaurs, so its best place is either far away firing with its minigun, or upclose soaking up hits. All saddles for upgraded **Andrewsarchuses use Advanced Element Bullets**.
 
 <details><summary>Prime:</summary>
@@ -126,18 +128,25 @@ _Saddle:_
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Saddle/PrimalItemArmor_AndrewsarchusPrimalSaddle.PrimalItemArmor_AndrewsarchusPrimalSaddle'" 1 0 false
 ```
 </details>
+</details>
 	
 ## Added Items:
 ### Structures:
 #### DOX Extras Workbench:
+<details><summary>------- Info ---------</summary>
+	
 Used to craft all items from DOX Extras. Engram can be unlocked at level 100.
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/PrimalItemStructure_DOXExtrasWorkbench.PrimalItemStructure_DOXExtrasWorkbench'" 1 0 false
 ```
+</details>
 
 ### Ammo:
 #### Advanced Element Ammo:
+<details><summary>------- Info ---------</summary>
+	
 An advanced bullet that uses element instead of gunpowder. 
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Ammo/AdvancedElementBullet/PrimalItemAmmo_AdvancedElementBullet.PrimalItemAmmo_AdvancedElementBullet'" 1000 0 false
 ```
+</details>
