@@ -132,7 +132,7 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Saddle
 	
 ## Added Items:
 ### Structures:
-#### DOX Extras Workbench:
+#### DOX Extras Workbench
 <details><summary>------- Info ---------</summary>
 	
 Used to craft all items from DOX Extras. Engram can be unlocked at level 100.
@@ -142,7 +142,7 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/Pri
 </details>
 
 ### Ammo:
-#### Advanced Element Ammo:
+#### Advanced Element Ammo
 <details><summary>------- Info ---------</summary>
 	
 An advanced bullet that uses element instead of gunpowder. 
