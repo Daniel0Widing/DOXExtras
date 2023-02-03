@@ -33,6 +33,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Stat | Data |
 | --- | --- |
 | Base Health | 800 |
+| Base Torpor | 800 |
 | Scale | 1.1 |
 | Extra Tamed Speed Multiplier | 2.0 |
 | Base Melee Damage | 96 / 64 |
@@ -47,6 +48,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Stat | Data |
 | --- | --- |
 | Base Health | 1000 |
+| Base Torpor | 1600 |
 | Scale | 1.15 |
 | Extra Tamed Speed Multiplier | 2.25 |
 | Base Melee Damage | 144 / 96 |
@@ -61,6 +63,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Stat | Data |
 | --- | --- |
 | Base Health | 1200 |
+| Base Torpor | 2400 |
 | Scale | 1.2 |
 | Extra Tamed Speed Multiplier | 2.5 |
 | Base Melee Damage | 200 / 144 |
@@ -80,6 +83,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Stat | Data |
 | --- | --- |
 | Base Health | 1500 |
+| Base Torpor | 3200 |
 | Scale | 1.25 |
 | Extra Tamed Speed Multiplier | 3.0 |
 | Base Melee Damage | 300 / 200 |
