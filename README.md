@@ -33,10 +33,12 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Stat | Data |
 | --- | --- |
 | Base Health | 800 |
+| Base Stamina | 400 |
 | Base Torpor | 800 |
+| Base Melee Damage Bonus | 1.5 |
+| Base Speed Multiplier Bonus | 0.5 |
 | Scale | 1.1 |
-| Extra Tamed Speed Multiplier | 2.0 |
-| Base Melee Damage | 96 / 64 |
+| Speed Boosts | 6 |
 | Minigun Damage | 333 |
 | Minigun Range | 25000 |
 | Minigun Fire Interval | 0.1 |
@@ -44,14 +46,20 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 
 \+ Minigun Partial Armor Piercing
 	
+\+ Fall Damage Reduced by 75%
+	
+\+ Provides Insulation to Rider
+	
 **Unique:**
 | Stat | Data |
 | --- | --- |
 | Base Health | 1200 |
+| Base Stamina | 500 |
 | Base Torpor | 1600 |
+| Base Melee Damage Bonus | 2.5 |
+| Base Speed Multiplier Bonus | 0.75 |
 | Scale | 1.15 |
-| Extra Tamed Speed Multiplier | 2.25 |
-| Base Melee Damage | 144 / 96 |
+| Speed Boosts | 8 |
 | Minigun Damage | 420 |
 | Minigun Range | 27500 |
 | Minigun Fire Interval | 0.08 |
@@ -62,11 +70,13 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 **Ancient:**
 | Stat | Data |
 | --- | --- |
-| Base Health | 1600 |
-| Base Torpor | 2400 |
+| Base Health | 1800 |
+| Base Stamina | 625 |
+| Base Torpor | 3200 |
+| Base Melee Damage Bonus | 4.5 |
+| Base Speed Multiplier Bonus | 1.0 |
 | Scale | 1.2 |
-| Extra Tamed Speed Multiplier | 2.5 |
-| Base Melee Damage | 200 / 144 |
+| Speed Boosts | 10 |
 | Minigun Projectile Damage | 250 direct, 250 AOE |
 | Minigun Projectile AOE Radius | 300 |
 | Minigun Range | 30000 |
@@ -77,16 +87,30 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 
 \+ Minigun Torpor
 
-\+ Minigun AoE	
+\+ Minigun AoE
+
+\+ Fall Damage Immunity
+
+\+ **Hog Hiatus** Buff: _(NYI)_
+```
+When the Andrewsarchus's health drops dangerously low, it prepares to flee: 
+- All active buffs are cleared and no new buffs can be applied for the duration. 
+- All speed boosts are recharged.
+- Stamina is completely refilled.
+- Speed, handling, and damage reduction increase, but attack damage sharply decreases.
+After the buff runs out, the Andrewsarchus cannot activate the buff again or be cryopoded until it calms down.
+```
 	
 **Primal:**
 | Stat | Data |
 | --- | --- |
-| Base Health | 2000 |
-| Base Torpor | 3200 |
+| Base Health | 2700 |
+| Base Stamina | 781.25 |
+| Base Torpor | 6400 |
+| Base Melee Damage Bonus | 8 |
+| Base Speed Multiplier Bonus | 1.25 |
 | Scale | 1.25 |
-| Extra Tamed Speed Multiplier | 3.0 |
-| Base Melee Damage | 300 / 200 |
+| Speed Boosts | 12 |
 | Minigun Projectile Damage | 666 AOE |
 | Minigun Projectile AOE Radius | 600 |
 | Minigun Range | 35000 |
@@ -94,6 +118,31 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Saddle Armor | 350 |
 
 \+ Minigun Stacking & Slowing Bleed
+
+\+ **Halcyon Hog** Buff replaces **Hog Hiatus**: _(NYI)_
+```
+When the Andrewsarchus's health drops dangerously low, it enters a serene state, strengthening its mind and body: 
+- All active buffs are cleared and no new buffs can be applied for the duration. 
+- All speed boosts are recharged.
+- Stamina is completely refilled.
+- Speed and handling slightly increase.
+- Damage reduction and melee damage greatly increase.
+- Melee attacks inflict damage in a larger area with more knockback.
+After the buff runs out, the Andrewsarchus cannot activate the buff again or be cryopoded until it recovers its morale.
+```
+	
+\+ **Hog of Havoc**: _(NYI)_ _(Under consideration)_
+```
+When the Andrewsarchus's life ends, it channels its inner beast and rampages:
+- All active buffs are cleared and no new buffs can be applied.
+- All speed boosts are recharged.
+- Stamina becomes infinite.
+- Speed and handling greatly increase.
+- Melee attacks rapidly deal massive amounts of true damage in a large area.
+- Becomes immune to all damage.
+- Cannot be cryopoded during this state.
+After this state runs out, the Andrewsarchus disintegrates, leaving nothing but its legacy behind.
+```
 
 <details><summary>---- Spawn Codes: ------</summary>
 
