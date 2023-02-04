@@ -146,6 +146,8 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Saddle
 <details><summary>------- Info ---------</summary>
 	
 Used to craft all items from DOX Extras. Engram can be unlocked at level 100.
+
+Can be crafted in the Smithy, Fabricator, or Tek Replicator.
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/PrimalItemStructure_DOXExtrasWorkbench.PrimalItemStructure_DOXExtrasWorkbench'" 1 0 false
 ```
@@ -156,6 +158,8 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/Pri
 <details><summary>------- Info ---------</summary>
 	
 An advanced bullet that uses element instead of gunpowder. 
+
+**Each craft gives 100 bullets by default.**
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Ammo/AdvancedElementBullet/PrimalItemAmmo_AdvancedElementBullet.PrimalItemAmmo_AdvancedElementBullet'" 1000 0 false
 ```
