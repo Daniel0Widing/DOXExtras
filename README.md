@@ -195,8 +195,6 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Dinos/Primal/Andrewsarchus/Saddle
 <details><summary>------- Info ---------</summary>
 	
 Used to craft all items from DOX Extras. Engram can be unlocked at level 100.
-
-Can be crafted in the Smithy, Fabricator, or Tek Replicator.
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Structures/DOXExtrasWorkbench/PrimalItemStructure_DOXExtrasWorkbench.PrimalItemStructure_DOXExtrasWorkbench'" 1 0 false
 ```
@@ -211,5 +209,30 @@ An advanced bullet that uses element instead of gunpowder.
 **Each craft gives 100 bullets by default.**
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Ammo/AdvancedElementBullet/PrimalItemAmmo_AdvancedElementBullet.PrimalItemAmmo_AdvancedElementBullet'" 1000 0 false
+```
+</details>
+
+
+### Consumables:
+#### DOX Extras Sacrifice Potion
+<details><summary>------- Info ---------</summary>
+	
+Serves the same role as DOX Sacrifice Elixir, with a few tweaks:
+- Only works on DOX Extras dinos
+- Force feed to dinos to sacrifice them
+- Gives back 1 Prime Heart, or however many Prime Hearts were used to craft the spawner for the sacrificed dinos
+
+Crafted from DOX Sacrifice Elixir.
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/DOXExtrasSacrificePotion/PrimalItemConsumable_DOXExtrasSacrificePotion.PrimalItemConsumable_DOXExtrasSacrificePotion'" 100 0 false
+```
+</details>
+
+#### Armor Repair Kit
+<details><summary>------- Info ---------</summary>
+	
+Instantly repairs an armor piece equipped or in your inventory when used, but consumes the kit on use and only works in player inventories.
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/ArmorRepairKit/PrimalItemConsumable_ArmorRepairKit.PrimalItemConsumable_ArmorRepairKit'" 40 0 false
 ```
 </details>
