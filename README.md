@@ -127,7 +127,7 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again or be 
 
 \+ Minigun Stacking & Slowing Bleed
 
-\+ **Halcyon Hog** Buff replaces **Hog Hiatus**: _(NYI)_
+\+ **Halcyon Hog** Buff replaces **Hog Hiatus** Buff: _(NYI)_
 ```
 When the Andrewsarchus's health drops dangerously low, it enters a serene state, strengthening its mind and body: 
 - All active buffs are cleared and no new buffs can be applied for the duration. 
@@ -139,7 +139,7 @@ When the Andrewsarchus's health drops dangerously low, it enters a serene state,
 After the buff runs out, the Andrewsarchus cannot activate the buff again or be cryopoded until it recovers its morale.
 ```
 	
-\+ **Hog of Havoc**: _(NYI)_ _(Under consideration)_
+\+ **Hog of Havoc** Ability: _(NYI)_ _(Under consideration)_
 ```
 When the Andrewsarchus's life ends, it channels its inner beast and rampages:
 - All active buffs are cleared and no new buffs can be applied.
