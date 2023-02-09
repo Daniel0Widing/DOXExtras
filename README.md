@@ -4,6 +4,14 @@ Adds extra features and dinos to the DinoOverhaul X (DOX) mod. All craftable ite
 ## Installing the Mod
 Log into Steam, go to [DOX Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=2927749831), and subscribe to the mod. While you're at it, you should also subscribe to [DinoOverhaul X](https://steamcommunity.com/sharedfiles/filedetails/?id=710880648) since it doesn't make sense to use this mod without it. Then launch ARK and the mods should automatically download. When you create your world/server, place this mod directly after DOX in the mod load order for best results.
 
+## GameUserSettings.ini Configuration
+Add the following section to the bottom of your GameUserSettings.ini file and change the settings you want changed. The names should all be self-explanatory.
+
+```
+[DOXExtras]
+CanSacrificeClones=false
+```
+
 ## Tiers
 In DOX, Dino tiers go from Normal\*, to Apex, to Prime, to Ancient, to Primal.
 But then there's also Alpha Apex, Apex Prime Unique, X, Y, and probably some I'm missing. I spent about about an hour going through the in-game documentation, online GoogleSheets database, spawn codes, and compiled mod files, and I'm still fairly certain I don't have the tiers in the right order.
@@ -221,6 +229,7 @@ Serves the same role as DOX Sacrifice Elixir, with a few tweaks:
 - Only works on DOX Extras dinos
 - Force feed to dinos to sacrifice them
 - Gives back 1 Prime Heart, or however many Prime Hearts were used to craft the spawner for the sacrificed dinos
+- Does not work on cloned dinosaurs (can be enabled in config)
 
 Crafted from DOX Sacrifice Elixir.
 ```
