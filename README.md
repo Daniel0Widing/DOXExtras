@@ -13,12 +13,11 @@ CanSacrificeClones=false
 ```
 
 ## Tiers
-In DOX, Dino tiers go from Normal\*, to Apex, to Prime, to Ancient, to Primal.
-But then there's also Alpha Apex, Apex Prime Unique, X, Y, and probably some I'm missing. I spent about about an hour going through the in-game documentation, online GoogleSheets database, spawn codes, and compiled mod files, and I'm still fairly certain I don't have the tiers in the right order.
+In DOX, dino tiers go from Normal\*, to Apex, to Prime, to Unique/Ancient, to Primal.
 
-So for DOX Extras, the dinosaur tiers are streamlined and consistant, while still trying to stay as close to DOX as possible. The tiers, in order, are:
+For DOX Extras, dino tiers are streamlined and linear, while still trying to stay as close to DOX as possible in terms of balance. The tiers, in order, are:
 
-**Prime -> Unique -> Ancient -> Primal**
+**Prime -> Unique (temp) -> Ancient (temp) -> Primal**
 
 Each tier has its own saddle and dinosaur spawner item, along with a corresponding color scheme which is applied to all matching dinosaurs, saddles, and spawners of each tier. The colors are:
 
