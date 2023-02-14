@@ -32,6 +32,33 @@ Each tier has its own saddle and dinosaur spawner item, along with a correspondi
 
 _If the color names look strange, that's because they are the color code names used in ARK's code_
 
+## Damage
+Damage in ARK generally works by multiplying incoming damage by all resistance modifiers.
+```
+Recieved Damage = Incoming Damage * Resistance Modifiers
+```
+where
+```
+Resistance Modifiers = Armor multiplier * Bone multiplier * Buff multiplier(s) * Inate multiplier(s)
+```
+These resistance modifiers in more detail are:
+| Type | Explaination | Examples |
+| --- | --- | --- |
+| Armor | Resistance that scales with the equipped armor rating | Saddles, equipped armor |
+| Bone | Resistance based on where the damage impact was | Turtle shell, Trike head |
+| Buff | Resistance that is active as long as the buff is | Yuty Courage buff, Imprinting buff |
+| Inate | Resistance to certain damage types built into some dinos | Wild stego |
+
+How resistance modifiers affect damage is based on the damage type of the damage. The following are the _general_ categories damage types fall into:
+| Type | Affected by | Examples |
+| --- | --- | --- |
+| Normal | Armor, all modifiers | Dilo bite, Rex bite, Firearms |
+| Piercing | all/most modifiers | Manta attacks, Theri slashes, Turrets |
+| Passive | Inate modifiers | Wyverns/Basalisk poison |
+| True | Nothing | Hellbound Hog bites, (does not exist in vanilla ARK) |
+
+_Disclaimer: This is my current understanding of how damage works in ARK from going through the source files and working on this mod. If you see something incorrect with this understanding, please let me know._
+
 ## Added Dinos:
 ### Andrewsarchus
 <details><summary>------- Info ---------</summary>
