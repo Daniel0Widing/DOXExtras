@@ -80,7 +80,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Fire Interval | 0.1 |
 | Saddle Armor | 150 |
 
-\+ Minigun Partial Armor Piercing
+\+ Minigun Deals Piercing Damage
 	
 \+ Fall Damage Reduced by 75%
 	
@@ -119,7 +119,7 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Fire Interval | 0.075 |
 | Saddle Armor | 250 |
 
-\+ Minigun Full Piercing
+\+ Minigun Deals Passive Damage
 
 \+ Minigun Torpor
 
@@ -127,14 +127,15 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 
 \+ Fall Damage Immunity
 
-\+ **Hog Hiatus** Buff: _(NYI)_
+\+ **Hog Hiatus** Buff:
 ```
-When the Andrewsarchus's health drops dangerously low, it prepares to flee: 
-- All active buffs are cleared and no new buffs can be applied for the duration. 
+When the Andrewsarchus's health drops dangerously low (15%), it prepares to flee: 
+- All active buffs are cleared and no new buffs can be applied for the duration (30 sec). 
 - All speed boosts are recharged.
-- Stamina is completely refilled.
-- Speed, handling, and damage reduction increase, but attack damage sharply decreases.
-After the buff runs out, the Andrewsarchus cannot activate the buff again or be cryopoded until it calms down.
+- Stamina becomes infinite.
+- Speed (+150%) and damage reduction (+95%) increase, but attack damage sharply decreases (-95%).
+- Heals 25% of max HP over duration
+After the buff runs out, the Andrewsarchus cannot activate the buff again until it recovers (15 min).
 ```
 	
 **Primal:**
@@ -153,31 +154,34 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again or be 
 | Minigun Fire Interval | 0.05 |
 | Saddle Armor | 350 |
 
-\+ Minigun Stacking & Slowing Bleed
+\+ Minigun Stacking & Slowing Bleed Effect
 
-\+ **Halcyon Hog** Buff replaces **Hog Hiatus** Buff: _(NYI)_
+\+ **Halcyon Hog** Buff replaces **Hog Hiatus** Buff:
 ```
-When the Andrewsarchus's health drops dangerously low, it enters a serene state, strengthening its mind and body: 
-- All active buffs are cleared and no new buffs can be applied for the duration. 
+When the Andrewsarchus's health drops dangerously low (15%), it enters a serene state, strengthening its mind and body and emboldening its allies: 
+- All active buffs are cleared and no new buffs can be applied for the duration (45 sec). 
 - All speed boosts are recharged.
-- Stamina is completely refilled.
-- Speed and handling slightly increase.
-- Damage reduction and melee damage greatly increase.
-- Melee attacks inflict damage in a larger area with more knockback.
-After the buff runs out, the Andrewsarchus cannot activate the buff again or be cryopoded until it recovers its morale.
+- Stamina becomes infinite.
+- Speed (+50%) increases slightly. 
+- Heals 33% of max HP instantly
+- Damage reduction (+97.5%) and melee damage (+150%) greatly increase.
+- Main melee attack inflicts true damage in a larger area (+200%) with more knockback (+200%).
+- AOE Healing buff (+5000 HP/s) to all nearby friendlies (and self) for duration 
+After the buff runs out, the Andrewsarchus cannot activate the buff again until it recovers (30 min).
 ```
 	
-\+ **Hog of Havoc** Ability: _(NYI)_ _(Under consideration)_
+\+ **Hellbound Hog** Ability:
 ```
-When the Andrewsarchus's life ends, it channels its inner beast and rampages:
+When the Andrewsarchus reaches death's door, it takes its final stand before crossing the threshold:
 - All active buffs are cleared and no new buffs can be applied.
 - All speed boosts are recharged.
 - Stamina becomes infinite.
-- Speed and handling greatly increase.
-- Melee attacks rapidly deal massive amounts of true damage in a large area.
+- Speed (+100%) greatly increases.
+- Melee damage (+500%) massively increases
+- Main attack deals true damage within a massive range (+300%) and a powerful DOT
 - Becomes immune to all damage.
 - Cannot be cryopoded during this state.
-After this state runs out, the Andrewsarchus disintegrates, leaving nothing but its legacy behind.
+After this state runs out (60 sec), the Andrewsarchus's body turns to fire and plumets into hell, leaving behind a gravestone with its items where it hits the ground. (｀д´)ゝ 🫡
 ```
 
 <details><summary>---- Spawn Codes: ------</summary>
