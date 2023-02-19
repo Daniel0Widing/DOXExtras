@@ -79,6 +79,8 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Range | 25000 |
 | Minigun Fire Interval | 0.1 |
 | Saddle Armor | 150 |
+| AOE Healing | 250 HP/s |
+| Damage Cap | 100000 |
 
 \+ Minigun Deals Piercing Damage
 	
@@ -100,6 +102,8 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Range | 27500 |
 | Minigun Fire Interval | 0.08 |
 | Saddle Armor | 200 |
+| AOE Healing | 500 HP/s |
+| Damage Cap | 75000 |
 
 \+ Minigun Slow Effect
 
@@ -118,6 +122,8 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 | Minigun Range | 30000 |
 | Minigun Fire Interval | 0.075 |
 | Saddle Armor | 250 |
+| AOE Healing | 750 HP/s |
+| Damage Cap | 50000 |
 
 \+ Minigun Deals Passive Damage
 
@@ -131,9 +137,9 @@ The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its reg
 ```
 When the Andrewsarchus's health drops dangerously low (15%), it prepares to flee: 
 - All active buffs are cleared and no new buffs can be applied for the duration (30 sec). 
-- All speed boosts are recharged.
+- All speed boosts are recharged, but cannot be activated until buff expires.
 - Stamina becomes infinite.
-- Speed (+150%) and damage reduction (+95%) increase, but attack damage sharply decreases (-95%).
+- Speed (+50%) and damage reduction (+99.5%) increase, but attack damage sharply decreases (-95%).
 - Heals 25% of max HP over duration
 After the buff runs out, the Andrewsarchus cannot activate the buff again until it recovers (15 min).
 ```
@@ -153,6 +159,8 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again until 
 | Minigun Range | 35000 |
 | Minigun Fire Interval | 0.05 |
 | Saddle Armor | 350 |
+| AOE Healing | 1250 HP/s |
+| Damage Cap | 25000 |
 
 \+ Minigun Stacking & Slowing Bleed Effect
 
@@ -160,23 +168,22 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again until 
 ```
 When the Andrewsarchus's health drops dangerously low (15%), it enters a serene state, strengthening its mind and body and emboldening its allies: 
 - All active buffs are cleared and no new buffs can be applied for the duration (45 sec). 
-- All speed boosts are recharged.
+- All speed boosts are recharged, but cannot be activated until buff expires.
 - Stamina becomes infinite.
-- Speed (+50%) increases slightly. 
+- Speed (+25%) increases slightly. 
 - Heals 33% of max HP instantly
-- Damage reduction (+97.5%) and melee damage (+150%) greatly increase.
-- Main melee attack inflicts true damage in a larger area (+200%) with more knockback (+200%).
+- Damage reduction (+98%) and melee damage (+150%) greatly increase.
+- Main melee attack inflicts damage in a larger area (+200%) with more knockback (+200%).
 - AOE Healing buff (+5000 HP/s) to all nearby friendlies (and self) for duration 
-After the buff runs out, the Andrewsarchus cannot activate the buff again until it recovers (30 min).
+After the buff runs out, the Andrewsarchus cannot activate the buff again until it recovers (15 min).
 ```
 	
 \+ **Hellbound Hog** Ability:
 ```
 When the Andrewsarchus reaches death's door, it takes its final stand before crossing the threshold:
 - All active buffs are cleared and no new buffs can be applied.
-- All speed boosts are recharged.
 - Stamina becomes infinite.
-- Speed (+100%) greatly increases.
+- Speed (+37.5%) greatly increases.
 - Melee damage (+500%) massively increases
 - Main attack deals true damage within a massive range (+300%) and a powerful DOT
 - Becomes immune to all damage.
