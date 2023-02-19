@@ -47,7 +47,7 @@ These resistance modifiers in more detail are:
 | Armor | Resistance that scales with the equipped armor rating | Saddles, equipped armor |
 | Bone | Resistance based on where the damage impact was | Turtle shell, Trike head |
 | Buff | Resistance that is active as long as the buff is | Yuty Courage buff, Imprinting buff |
-| Inate | Resistance to certain damage types built into some dinos | Wild stego |
+| Inate | Resistance to certain damage types built into some dinos | Many dinos take reduced damage from ranged attacks |
 
 How resistance modifiers affect damage is based on the damage type of the damage. The following are the _general_ categories damage types fall into:
 | Type | Affected by | Examples |
@@ -57,13 +57,17 @@ How resistance modifiers affect damage is based on the damage type of the damage
 | Passive | Inate modifiers | Wyverns/Basalisk poison |
 | True | Nothing | Hellbound Hog bites, (does not exist in vanilla ARK) |
 
+On top of this, damage can also be adjusted after all modifiers are taken into account but before it is applied. This adjustment is generally pretty rare, but is very dynamic. Some adjustments involve limiting maximum damage taken (tiered Andrewsarchus), or adding additional damage-type agnostic multipliers (Stego Hardened Plate mode). As this adjustment takes place after resistance calculations, it is capable of reducing true damage.
+
 _Disclaimer: This is my current understanding of how damage works in ARK from going through the source files and working on this mod. If you see something incorrect with this understanding, please let me know._
 
 ## Added Dinos:
 ### Andrewsarchus
 <details><summary>------- Info ---------</summary>
 	
-The upgraded Andrewsarchus focuses on **Health** and **Minigun Damage**. Its regular attacks are lack luster compared to other upgraded dinosaurs, so its best place is either far away firing with its minigun, or upclose soaking up hits. All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://github.com/Daniel0Widing/DOXExtras#advanced-element-bullets).
+The upgraded Andrewsarchus focuses on **Health** and **Support**. Its damage output is lack luster compared to similar level tames, so it's best used to soak up damage while other dinos dish out damage. Many of its attacks, especially at higher tiers, inflict debuffs on enemies hit, and all tiers provide AOE healing to nearby friendlies. It also has a scaling damage cap which makes it excellent for tanking very powerful attacks without getting 1-shot.
+	
+All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://github.com/Daniel0Widing/DOXExtras#advanced-element-bullets).
 
 **Prime:**
 | Stat | Data |
