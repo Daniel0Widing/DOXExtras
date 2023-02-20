@@ -85,6 +85,7 @@ All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://
 | Saddle Armor | 150 |
 | AOE Healing | 250 HP/s |
 | Damage Cap | 100000 |
+| Torpor Cap | 125000 |
 
 \+ Minigun Deals Piercing Damage
 	
@@ -108,6 +109,7 @@ All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://
 | Saddle Armor | 200 |
 | AOE Healing | 500 HP/s |
 | Damage Cap | 75000 |
+| Torpor Cap | 100000 |
 
 \+ Minigun Slow Effect
 
@@ -128,6 +130,7 @@ All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://
 | Saddle Armor | 250 |
 | AOE Healing | 750 HP/s |
 | Damage Cap | 50000 |
+| Torpor Cap | 75000 |
 
 \+ Minigun Deals Passive Damage
 
@@ -165,6 +168,7 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again until 
 | Saddle Armor | 350 |
 | AOE Healing | 1250 HP/s |
 | Damage Cap | 25000 |
+| Torpor Cap | 50000 |
 
 \+ Minigun Stacking & Slowing Bleed Effect
 
@@ -268,13 +272,14 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Ammo/AdvancedElementBullet/
 #### DOX Extras Sacrifice Potion
 <details><summary>------- Info ---------</summary>
 	
-Serves the same role as DOX Sacrifice Elixir, with a few tweaks:
-- Only works on DOX Extras dinos
+Similar to the DOX Sacrifice Elixir, but an upgraded version:
+- Works on both DOX and DOX Extras dinos
 - Force feed to dinos to sacrifice them
-- Gives back 1 Prime Heart, or however many Prime Hearts were used to craft the spawner for the sacrificed dinos
+- Gives a number of Prime Hearts based on the tier of the sacrificed dino
+- For dinos from crafted spawners, gives the number of Prime Hearts used to craft the spawner
 - Does not work on cloned dinosaurs (can be enabled in config)
 
-Crafted from DOX Sacrifice Elixir.
+Crafting is more expensive early game, but less grindy late game.
 ```
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/DOXExtrasSacrificePotion/PrimalItemConsumable_DOXExtrasSacrificePotion.PrimalItemConsumable_DOXExtrasSacrificePotion'" 100 0 false
 ```
