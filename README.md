@@ -9,7 +9,7 @@ Add the following section to the bottom of your GameUserSettings.ini file and ch
 
 ```
 [DOXExtras]
-CanSacrificeClones=false
+CanSacrificeClones=False
 ```
 
 ## Tiers
