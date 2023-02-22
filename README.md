@@ -293,3 +293,14 @@ Instantly repairs an armor piece equipped or in your inventory when used, but co
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/ArmorRepairKit/PrimalItemConsumable_ArmorRepairKit.PrimalItemConsumable_ArmorRepairKit'" 40 0 false
 ```
 </details>
+
+#### V-Mate
+<details><summary>------- Info ---------</summary>
+	
+Are your dinos feeling lonely because they don't have a mate? Worry not, for we have the technology! The patent-pending V-Mate provides your lonely dinosaurs with their very own virtual mate! Just use it on a dinosaur and watch them recieve all the benefits of a mate, without actually needing one!
+
+Works on all dinosaur genders (or lack thereof), because everyone deserves love!
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate'" 1 0 false
+```
+</details>
