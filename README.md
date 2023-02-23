@@ -281,7 +281,7 @@ Similar to the DOX Sacrifice Elixir, but an upgraded version:
 
 Crafting is more expensive early game, but less grindy late game.
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/DOXExtrasSacrificePotion/PrimalItemConsumable_DOXExtrasSacrificePotion.PrimalItemConsumable_DOXExtrasSacrificePotion'" 100 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumables/DOXExtrasSacrificePotion/PrimalItemConsumable_DOXExtrasSacrificePotion.PrimalItemConsumable_DOXExtrasSacrificePotion'" 100 0 false
 ```
 </details>
 
@@ -290,7 +290,7 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/DOXExtrasSacrifi
 	
 Instantly repairs an armor piece equipped or in your inventory when used, but consumes the kit on use and only works in player inventories.
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/ArmorRepairKit/PrimalItemConsumable_ArmorRepairKit.PrimalItemConsumable_ArmorRepairKit'" 40 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumables/ArmorRepairKit/PrimalItemConsumable_ArmorRepairKit.PrimalItemConsumable_ArmorRepairKit'" 40 0 false
 ```
 </details>
 
@@ -301,6 +301,28 @@ Are your dinos feeling lonely because they don't have a mate? Worry not, for we 
 
 Works on all dinosaur genders (or lack thereof), because everyone deserves love!
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumable/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumables/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate'" 1 0 false
 ```
 </details>
+
+### Resources:
+#### Primal Remnants
+<details><summary>------- Info ---------</summary>
+	
+The condensed energy left behind by a Primal dinosaur when it is sacrificed. Used for crafting DOX Extras Primal spawners. One for each type of DOX Primal.
+
+Created by using a DOX Extras Sacrifice Potion on a **DOX** Primal dinosaur.
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/Dragon/PrimalItemResource_DragonPrimalRemnant.PrimalItemResource_DragonPrimalRemnant'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/Gorilla/PrimalItemResource_GorillaPrimalRemnant.PrimalItemResource_GorillaPrimalRemnant'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/Manticore/PrimalItemResource_ManticorePrimalRemnant.PrimalItemResource_ManticorePrimalRemnant'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/RockGolem/PrimalItemResource_RockGolemPrimalRemnant.PrimalItemResource_RockGolemPrimalRemnant'" 1 0 false
+```
+</details>
+
