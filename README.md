@@ -322,7 +322,7 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants
 cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/Manticore/PrimalItemResource_ManticorePrimalRemnant.PrimalItemResource_ManticorePrimalRemnant'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/RockGolem/PrimalItemResource_RockGolemPrimalRemnant.PrimalItemResource_RockGolemPrimalRemnant'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Resources/DOXPrimalRemnants/RockGolem/PrimalItemResource_GolemPrimalRemnant.PrimalItemResource_GolemPrimalRemnant'" 1 0 false
 ```
 </details>
 
