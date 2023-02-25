@@ -137,6 +137,8 @@ All saddles for upgraded Andrewsarchuses use [Advanced Element Bullets](https://
 \+ Minigun Torpor
 
 \+ Minigun AoE
+	
+\+ Minigun Slow Increase with Minor Bleed
 
 \+ Fall Damage Immunity
 
@@ -170,7 +172,7 @@ After the buff runs out, the Andrewsarchus cannot activate the buff again until 
 | Damage Cap | 25000 |
 | Torpor Cap | 50000 |
 
-\+ Minigun Stacking & Slowing Bleed Effect
+\+ Minigun Slow Increase with Heavy Bleed
 
 \+ **Halcyon Hog** Buff replaces **Hog Hiatus** Buff:
 ```
