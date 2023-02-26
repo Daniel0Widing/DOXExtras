@@ -287,6 +287,16 @@ cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumables/DOXExtrasSacrif
 ```
 </details>
 
+#### Team Building Book
+<details><summary>------- Info ---------</summary>
+When used while riding a dinosaur, adds 25-50% imprint quality and sets the imprinter to the rider.
+
+Cannot be used on fully imprinted dinosaurs.
+```
+cheat giveitem "Blueprint'/Game/Mods/DOXExtras/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook'" 40 0 false
+```
+</details>
+
 #### Armor Repair Kit
 <details><summary>------- Info ---------</summary>
 	
